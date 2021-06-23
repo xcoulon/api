@@ -396,6 +396,13 @@ func schema_codeready_toolchain_api_api_v1alpha1_HostOperatorStatus(ref common.R
 				Description: "HostOperatorStatus defines the observed state of a toolchain's host operator",
 				Type:        []string{"object"},
 				Properties: map[string]spec.Schema{
+					"clusterVersion": {
+						SchemaProps: spec.SchemaProps{
+							Description: "The version of the OpenShift cluster",
+							Type:        []string{"string"},
+							Format:      "",
+						},
+					},
 					"version": {
 						SchemaProps: spec.SchemaProps{
 							Description: "The version of the operator",
