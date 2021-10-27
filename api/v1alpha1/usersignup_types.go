@@ -59,6 +59,10 @@ const (
 	// UserSignupStateLabelValueBanned is used for identifying that the UserSignup is banned
 	UserSignupStateLabelValueBanned = "banned"
 
+	// UserSignupActivationCodeLabelKey is used for the usersignup activation code label key
+	// when a user signs up on Dev Sandbox with an activation code
+	UserSignupActivationCodeLabelKey = LabelKeyPrefix + "activation-code"
+
 	// Status condition reasons
 	UserSignupNoClusterAvailableReason             = "NoClusterAvailable"
 	UserSignupNoTemplateTierAvailableReason        = "NoTemplateTierAvailable"

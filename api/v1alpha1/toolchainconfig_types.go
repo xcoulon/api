@@ -102,7 +102,7 @@ type AutomaticApprovalConfig struct {
 	// Defines the maximal number of users to be allowed for automatic approval.
 	// When the number is reached, then the automatic approval is stopped.
 	// +optional
-	MaxNumberOfUsers MaxNumberOfUsers `json:"maxNumberOfUsers,omitempty"`
+	MaxNumberOfUsers MaxNumberOfUsers
 }
 
 // Contains default capacity threshold as well as specific ones for particular member clusters
