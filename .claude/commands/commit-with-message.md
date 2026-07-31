@@ -1,7 +1,6 @@
 ---
 name: commit-with-message
 description: Create a commit with a message based on the staged changes
-
 ---
 
 1. Pre-check

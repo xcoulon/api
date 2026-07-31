@@ -14,7 +14,7 @@ $(LOCALBIN):
 ## Tool Binaries
 CONTROLLER_GEN ?= $(LOCALBIN)/controller-gen
 PATH_TO_CRD_BASES=config/crd/bases
-CONTROLLER_TOOLS_VERSION ?= v0.18.0
+CONTROLLER_TOOLS_VERSION ?= v0.20.1
 OPERATOR_SDK_VERSION ?= v1.42.0
 
 .PHONY: controller-gen
